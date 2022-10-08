@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* f_banner */
+.f_banner{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Components/img/img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.f_banner .f_banner_Details{
+    text-align: center;
+    width: 100%;
+}
+
+.f_banner .f_banner_Details h1{
+    font-size: 6rem;
+}
+
+.f_banner .f_banner_Details p{
+    font-size: 1.5rem;
+}
+/* f_banner */
+
+
+
+
+/* about */
+.about{
+    width: 100%;
+    background-color: #fdcb6e;
+    padding: 4rem 0rem;
+}
+
+.about .about_Section,.menu_list{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about_img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+
+.about_img img{
+    width: 100%;
+}
+/* about */
+
+
+/* menu */
+.menu{
+    width: 100%;
+    background-color: #2c3e50;
+    padding: 4rem 0rem;
+}
+
+.menu_list,.menu_img_list{
+    color: white;
+}
+
+.menu_img_list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+}
+
+.menu_img img{
+    width: 100%;
+}
+
+.menu_img_list{
+    width: 80%;
+    margin:20px auto 0px auto;
+    
+}
+
+.menu_img{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+.spans{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5;
+}
+/* menu */
+
+
+/* location */
+.location{
+    width: 100%;
+    background-color: #fdcb6e;
+}
+
+.location_details{
+    width: 80%;
+    margin: auto;
+    padding: 4rem 0rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+}
+
+.loca iframe{
+    width: 100%;
+    height: 50vh;
+}
+
+.loca_Details p{
+    font-size: 1.5rem;
+    margin: 10px 0px;
+}
+/* location */
